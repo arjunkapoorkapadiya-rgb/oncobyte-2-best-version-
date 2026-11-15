@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "OncoByte",
+    "slug": "oncobyte-ios",
+    "version": "2.5.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.ctc.oncobyte.ios",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "OncoByte uses local notifications to remind you to log gentle meals and hydration.",
+        "UIBackgroundModes": ["fetch", "remote-notification"]
+      }
+    },
+    "plugins": ["expo-router"]
+  }
+}

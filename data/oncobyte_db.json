@@ -1,0 +1,1135 @@
+{
+  "users": [
+    {
+      "id": "usr_onco_01",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@patientcare.org",
+      "passwordHash": "8b1eed929107059e0384b5cd90a8949fbbb900bf46f58fa2faad8b712a866f941d4c3caa7608ac6ddc45a6da682be45cd1d2a1ff108067563aa03052e9ed640e",
+      "treatmentContext": "Cycle 3 Adjuvant Chemotherapy — Focus on gentle hydration & nausea management",
+      "neutropenicDietActive": true,
+      "dailyHydrationGoalMl": 2000,
+      "allergies": [
+        "Shellfish",
+        "Raw Tree Nuts"
+      ],
+      "dietaryRestrictions": [
+        "Pasteurized Dairy Only",
+        "No Raw Sprouts",
+        "Low Acid"
+      ],
+      "loggingPreferences": {
+        "showMealJournal": true,
+        "showHydration": true,
+        "showSymptoms": true,
+        "showAppetiteScore": true,
+        "showToleranceRatings": true,
+        "showGentleNutritionMetrics": true
+      },
+      "reminders": [
+        {
+          "id": "rem_1",
+          "label": "Morning Ginger Tea & Small Breakfast",
+          "time": "08:30",
+          "type": "Meal",
+          "enabled": true
+        },
+        {
+          "id": "rem_2",
+          "label": "Mid-Morning Electrolyte Sip",
+          "time": "10:30",
+          "type": "Hydration",
+          "enabled": true
+        },
+        {
+          "id": "rem_3",
+          "label": "Gentle Midday Meal",
+          "time": "12:45",
+          "type": "Meal",
+          "enabled": true
+        },
+        {
+          "id": "rem_4",
+          "label": "Afternoon Broth or Smoothie",
+          "time": "15:30",
+          "type": "Hydration",
+          "enabled": true
+        },
+        {
+          "id": "rem_5",
+          "label": "Early Evening Soft Dinner",
+          "time": "18:15",
+          "type": "Meal",
+          "enabled": true
+        }
+      ],
+      "savedRecipeIds": [
+        "rec_01",
+        "rec_02",
+        "rec_04"
+      ]
+    }
+  ],
+  "userProfile": {
+    "id": "usr_onco_01",
+    "name": "Elena Rostova",
+    "email": "elena.rostova@patientcare.org",
+    "passwordHash": "8b1eed929107059e0384b5cd90a8949fbbb900bf46f58fa2faad8b712a866f941d4c3caa7608ac6ddc45a6da682be45cd1d2a1ff108067563aa03052e9ed640e",
+    "treatmentContext": "Cycle 3 Adjuvant Chemotherapy — Focus on gentle hydration & nausea management",
+    "neutropenicDietActive": true,
+    "dailyHydrationGoalMl": 2000,
+    "allergies": [
+      "Shellfish",
+      "Raw Tree Nuts"
+    ],
+    "dietaryRestrictions": [
+      "Pasteurized Dairy Only",
+      "No Raw Sprouts",
+      "Low Acid"
+    ],
+    "loggingPreferences": {
+      "showMealJournal": true,
+      "showHydration": true,
+      "showSymptoms": true,
+      "showAppetiteScore": true,
+      "showToleranceRatings": true,
+      "showGentleNutritionMetrics": true
+    },
+    "reminders": [
+      {
+        "id": "rem_1",
+        "label": "Morning Ginger Tea & Small Breakfast",
+        "time": "08:30",
+        "type": "Meal",
+        "enabled": true
+      },
+      {
+        "id": "rem_2",
+        "label": "Mid-Morning Electrolyte Sip",
+        "time": "10:30",
+        "type": "Hydration",
+        "enabled": true
+      },
+      {
+        "id": "rem_3",
+        "label": "Gentle Midday Meal",
+        "time": "12:45",
+        "type": "Meal",
+        "enabled": true
+      },
+      {
+        "id": "rem_4",
+        "label": "Afternoon Broth or Smoothie",
+        "time": "15:30",
+        "type": "Hydration",
+        "enabled": true
+      },
+      {
+        "id": "rem_5",
+        "label": "Early Evening Soft Dinner",
+        "time": "18:15",
+        "type": "Meal",
+        "enabled": true
+      }
+    ],
+    "savedRecipeIds": [
+      "rec_01",
+      "rec_02",
+      "rec_04"
+    ]
+  },
+  "meals": [
+    {
+      "id": "meal_101",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "08:35",
+      "category": "Breakfast",
+      "foodName": "Warm Cinnamon Oatmeal with Stewed Apples",
+      "ingredients": [
+        "rolled oats",
+        "water",
+        "peeled apple",
+        "ground cinnamon",
+        "maple syrup"
+      ],
+      "portion": "1 small bowl (180g)",
+      "tolerance": "Well Tolerated",
+      "notes": "Served lukewarm; peeled apples were very easy to swallow and soothing.",
+      "nutritionInfo": {
+        "proteinG": 6.2,
+        "fiberG": 4.5,
+        "ironMg": 1.8,
+        "potassiumMg": 210,
+        "gentleSummary": "Soluble oat fiber and cooked pectin support gentle digestion."
+      }
+    },
+    {
+      "id": "meal_102",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "12:40",
+      "category": "Lunch",
+      "foodName": "Ginger Miso Congee with Soft Poached Egg & Silken Tofu",
+      "ingredients": [
+        "white jasmine rice",
+        "vegetable broth",
+        "fresh ginger",
+        "white miso paste",
+        "silken tofu",
+        "well-cooked egg"
+      ],
+      "portion": "1 medium bowl (260g)",
+      "tolerance": "Well Tolerated",
+      "notes": "Fresh ginger aroma helped settle mild mid-day nausea.",
+      "nutritionInfo": {
+        "proteinG": 14.8,
+        "fiberG": 1.2,
+        "ironMg": 2.4,
+        "potassiumMg": 320,
+        "gentleSummary": "High moisture content and complete protein without heavy fats."
+      }
+    },
+    {
+      "id": "meal_103",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "16:10",
+      "category": "Snack",
+      "foodName": "Banana Oat Protein Smoothie",
+      "ingredients": [
+        "ripe banana",
+        "pasteurized Greek yogurt",
+        "oat milk",
+        "rolled oats"
+      ],
+      "portion": "240 ml glass",
+      "tolerance": "Moderate",
+      "notes": "Drank slowly over 30 minutes; felt slightly full halfway through.",
+      "nutritionInfo": {
+        "proteinG": 11.5,
+        "fiberG": 3.1,
+        "ironMg": 0.9,
+        "potassiumMg": 440,
+        "gentleSummary": "Potassium-rich and smooth texture for low chewing effort."
+      }
+    },
+    {
+      "id": "meal_099",
+      "userId": "usr_onco_01",
+      "date": "2026-11-14",
+      "timestamp": "09:00",
+      "category": "Breakfast",
+      "foodName": "Scrambled Eggs on White Sourdough Toast",
+      "ingredients": [
+        "well-cooked eggs",
+        "sourdough bread",
+        "olive oil"
+      ],
+      "portion": "2 eggs + 1 slice toast",
+      "tolerance": "Well Tolerated",
+      "notes": "Cooked eggs thoroughly until firm per food safety guidelines.",
+      "nutritionInfo": {
+        "proteinG": 15.2,
+        "fiberG": 1.4,
+        "ironMg": 2.1,
+        "potassiumMg": 185,
+        "gentleSummary": "High bioavailable protein for tissue recovery."
+      }
+    },
+    {
+      "id": "meal_098",
+      "userId": "usr_onco_01",
+      "date": "2026-11-14",
+      "timestamp": "13:15",
+      "category": "Lunch",
+      "foodName": "Tomato Basil Bisque with Cheddar Crackers",
+      "ingredients": [
+        "tomatoes",
+        "garlic",
+        "heavy cream",
+        "onion",
+        "cheddar crackers"
+      ],
+      "portion": "1 cup",
+      "tolerance": "Difficult",
+      "notes": "Acidic tomato and garlic triggered metallic taste and mild reflux.",
+      "nutritionInfo": {
+        "proteinG": 5.4,
+        "fiberG": 2.2,
+        "ironMg": 1.1,
+        "potassiumMg": 390,
+        "gentleSummary": "Warm liquid format, though acidity may irritate sensitive mucosa."
+      }
+    },
+    {
+      "id": "meal_097",
+      "userId": "usr_onco_01",
+      "date": "2026-11-14",
+      "timestamp": "18:30",
+      "category": "Dinner",
+      "foodName": "Poached Chicken Breast with Mashed Sweet Potato",
+      "ingredients": [
+        "chicken breast",
+        "sweet potato",
+        "chicken bone broth",
+        "parsley"
+      ],
+      "portion": "120g chicken + 1/2 cup mash",
+      "tolerance": "Well Tolerated",
+      "notes": "Moistened chicken with extra warm broth to help with dry mouth.",
+      "nutritionInfo": {
+        "proteinG": 28.4,
+        "fiberG": 3.8,
+        "ironMg": 1.6,
+        "potassiumMg": 580,
+        "gentleSummary": "Lean protein paired with beta-carotene rich soft mash."
+      }
+    },
+    {
+      "id": "meal_095",
+      "userId": "usr_onco_01",
+      "date": "2026-11-13",
+      "timestamp": "12:30",
+      "category": "Lunch",
+      "foodName": "Spicy Garlic Noodles with Tofu",
+      "ingredients": [
+        "wheat noodles",
+        "chili oil",
+        "garlic",
+        "onion",
+        "soy sauce",
+        "tofu"
+      ],
+      "portion": "1/2 bowl",
+      "tolerance": "Not Tolerated",
+      "notes": "Chili oil and strong garlic odor caused immediate nausea and food aversion.",
+      "nutritionInfo": {
+        "proteinG": 10.2,
+        "fiberG": 2,
+        "ironMg": 1.9,
+        "potassiumMg": 220,
+        "gentleSummary": "Plant protein source; strong spices may challenge sensitive stomachs."
+      }
+    },
+    {
+      "id": "meal_094",
+      "userId": "usr_onco_01",
+      "date": "2026-11-13",
+      "timestamp": "18:00",
+      "category": "Dinner",
+      "foodName": "Butternut Squash & Red Lentil Puree Soup",
+      "ingredients": [
+        "butternut squash",
+        "red lentils",
+        "vegetable broth",
+        "fresh ginger",
+        "olive oil"
+      ],
+      "portion": "1 bowl (250ml)",
+      "tolerance": "Well Tolerated",
+      "notes": "Velvety smooth texture, mild sweetness was comforting.",
+      "nutritionInfo": {
+        "proteinG": 11.8,
+        "fiberG": 5.4,
+        "ironMg": 3.1,
+        "potassiumMg": 510,
+        "gentleSummary": "Iron-rich red lentils blended smooth for effortless swallowing."
+      }
+    },
+    {
+      "id": "meal_092",
+      "userId": "usr_onco_01",
+      "date": "2026-11-12",
+      "timestamp": "09:15",
+      "category": "Breakfast",
+      "foodName": "Greek Yogurt Parfait with Stewed Pears",
+      "ingredients": [
+        "pasteurized Greek yogurt",
+        "peeled pear",
+        "honey",
+        "rolled oats"
+      ],
+      "portion": "1 cup",
+      "tolerance": "Well Tolerated",
+      "notes": "Cool temperature felt refreshing on mouth.",
+      "nutritionInfo": {
+        "proteinG": 16,
+        "fiberG": 3.2,
+        "ironMg": 0.7,
+        "potassiumMg": 290,
+        "gentleSummary": "Cool, smooth dairy protein gentle on oral mucosa."
+      }
+    },
+    {
+      "id": "meal_091",
+      "userId": "usr_onco_01",
+      "date": "2026-11-11",
+      "timestamp": "13:00",
+      "category": "Lunch",
+      "foodName": "Avocado & Egg Salad on Soft Brioche",
+      "ingredients": [
+        "avocado",
+        "well-cooked eggs",
+        "brioche bread",
+        "lemon juice"
+      ],
+      "portion": "1 sandwich",
+      "tolerance": "Well Tolerated",
+      "notes": "Soft crustless bread was very easy to chew and swallow.",
+      "nutritionInfo": {
+        "proteinG": 14.5,
+        "fiberG": 4.8,
+        "ironMg": 1.9,
+        "potassiumMg": 460,
+        "gentleSummary": "Calorie-dense healthy monounsaturated fats in a soft format."
+      }
+    }
+  ],
+  "hydration": [
+    {
+      "id": "hyd_201",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "08:15",
+      "fluidType": "Ginger Tea",
+      "amountMl": 250,
+      "tolerance": "Well Tolerated",
+      "notes": "Warm, sipped slowly before breakfast."
+    },
+    {
+      "id": "hyd_202",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "10:45",
+      "fluidType": "Electrolyte Solution",
+      "amountMl": 350,
+      "tolerance": "Well Tolerated",
+      "notes": "Diluted 1:1 with cool filtered water."
+    },
+    {
+      "id": "hyd_203",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "13:30",
+      "fluidType": "Water",
+      "amountMl": 300,
+      "tolerance": "Well Tolerated",
+      "notes": "Added a cucumber slice to reduce metallic water taste."
+    },
+    {
+      "id": "hyd_204",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "15:45",
+      "fluidType": "Bone Broth",
+      "amountMl": 250,
+      "tolerance": "Well Tolerated",
+      "notes": "Savory warmth helped energy in the afternoon."
+    },
+    {
+      "id": "hyd_205",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "17:30",
+      "fluidType": "Herbal Tea",
+      "amountMl": 250,
+      "tolerance": "Well Tolerated",
+      "notes": "Peppermint chamomile infusion."
+    },
+    {
+      "id": "hyd_199",
+      "userId": "usr_onco_01",
+      "date": "2026-11-14",
+      "timestamp": "11:00",
+      "fluidType": "Electrolyte Solution",
+      "amountMl": 500,
+      "tolerance": "Well Tolerated"
+    },
+    {
+      "id": "hyd_198",
+      "userId": "usr_onco_01",
+      "date": "2026-11-14",
+      "timestamp": "15:00",
+      "fluidType": "Water",
+      "amountMl": 650,
+      "tolerance": "Well Tolerated"
+    },
+    {
+      "id": "hyd_197",
+      "userId": "usr_onco_01",
+      "date": "2026-11-14",
+      "timestamp": "19:00",
+      "fluidType": "Ginger Tea",
+      "amountMl": 450,
+      "tolerance": "Well Tolerated"
+    },
+    {
+      "id": "hyd_196",
+      "userId": "usr_onco_01",
+      "date": "2026-11-13",
+      "timestamp": "12:00",
+      "fluidType": "Clear Broth",
+      "amountMl": 600,
+      "tolerance": "Well Tolerated"
+    },
+    {
+      "id": "hyd_195",
+      "userId": "usr_onco_01",
+      "date": "2026-11-13",
+      "timestamp": "17:00",
+      "fluidType": "Electrolyte Solution",
+      "amountMl": 750,
+      "tolerance": "Well Tolerated"
+    },
+    {
+      "id": "hyd_194",
+      "userId": "usr_onco_01",
+      "date": "2026-11-12",
+      "timestamp": "14:00",
+      "fluidType": "Water",
+      "amountMl": 1850,
+      "tolerance": "Well Tolerated"
+    },
+    {
+      "id": "hyd_193",
+      "userId": "usr_onco_01",
+      "date": "2026-11-11",
+      "timestamp": "14:00",
+      "fluidType": "Water",
+      "amountMl": 1950,
+      "tolerance": "Well Tolerated"
+    }
+  ],
+  "symptoms": [
+    {
+      "id": "sym_301",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "11:20",
+      "symptomType": "Nausea",
+      "category": "Symptom",
+      "severity": 2,
+      "appetiteScore": 6,
+      "triggeredByFood": "Empty stomach mid-morning",
+      "notes": "Subsided 20 minutes after sipping warm ginger tea."
+    },
+    {
+      "id": "sym_302",
+      "userId": "usr_onco_01",
+      "date": "2026-11-15",
+      "timestamp": "16:25",
+      "symptomType": "Early Satiety",
+      "category": "Eating Difficulty",
+      "severity": 2,
+      "appetiteScore": 5,
+      "triggeredByFood": "Banana Oat Smoothie",
+      "notes": "Felt full quickly after half a glass; saved the rest in fridge."
+    },
+    {
+      "id": "sym_299",
+      "userId": "usr_onco_01",
+      "date": "2026-11-14",
+      "timestamp": "13:45",
+      "symptomType": "Taste Changes (Metallic/Bitter)",
+      "category": "Symptom",
+      "severity": 3,
+      "appetiteScore": 5,
+      "triggeredByFood": "Tomato Basil Bisque",
+      "notes": "Acidic tomato flavor tasted sharply metallic; switched to bamboo utensils."
+    },
+    {
+      "id": "sym_298",
+      "userId": "usr_onco_01",
+      "date": "2026-11-14",
+      "timestamp": "18:00",
+      "symptomType": "Dry Mouth (Xerostomia)",
+      "category": "Eating Difficulty",
+      "severity": 2,
+      "appetiteScore": 6,
+      "triggeredByFood": "Chicken Breast",
+      "notes": "Needed extra broth to moisten each bite."
+    },
+    {
+      "id": "sym_297",
+      "userId": "usr_onco_01",
+      "date": "2026-11-13",
+      "timestamp": "12:50",
+      "symptomType": "Nausea",
+      "category": "Symptom",
+      "severity": 4,
+      "appetiteScore": 3,
+      "triggeredByFood": "Spicy Garlic Noodles",
+      "notes": "Strong cooking odors and chili oil triggered wave of nausea."
+    },
+    {
+      "id": "sym_296",
+      "userId": "usr_onco_01",
+      "date": "2026-11-13",
+      "timestamp": "15:00",
+      "symptomType": "Fatigue",
+      "category": "Symptom",
+      "severity": 4,
+      "appetiteScore": 4,
+      "notes": "Low afternoon energy; preferred zero-prep liquid soup for dinner."
+    },
+    {
+      "id": "sym_295",
+      "userId": "usr_onco_01",
+      "date": "2026-11-12",
+      "timestamp": "10:00",
+      "symptomType": "Appetite Loss",
+      "category": "Symptom",
+      "severity": 3,
+      "appetiteScore": 5,
+      "notes": "Ate smaller snack-sized portions every 3 hours instead of large meals."
+    },
+    {
+      "id": "sym_294",
+      "userId": "usr_onco_01",
+      "date": "2026-11-11",
+      "timestamp": "14:00",
+      "symptomType": "Fatigue",
+      "category": "Symptom",
+      "severity": 2,
+      "appetiteScore": 7,
+      "notes": "Mild fatigue after clinic visit."
+    }
+  ],
+  "foodSensitivities": [
+    {
+      "id": "sens_01",
+      "foodOrIngredient": "Garlic & Strong Alliums",
+      "reactionType": "Nausea Trigger",
+      "toleranceStatus": "Avoid",
+      "occurrenceCount": 3,
+      "lastReported": "2026-11-14",
+      "notes": "Strong pungent aroma and aftertaste consistently correlate with post-meal nausea."
+    },
+    {
+      "id": "sens_02",
+      "foodOrIngredient": "Chili Oil & Hot Spices",
+      "reactionType": "GI Intolerance",
+      "toleranceStatus": "Avoid",
+      "occurrenceCount": 2,
+      "lastReported": "2026-11-13",
+      "notes": "Irritates sensitive oral mucosa and stomach lining."
+    },
+    {
+      "id": "sens_03",
+      "foodOrIngredient": "Acidic Tomato Sauces",
+      "reactionType": "Mouth Irritation",
+      "toleranceStatus": "Caution",
+      "occurrenceCount": 2,
+      "lastReported": "2026-11-14",
+      "notes": "Amplifies metallic taste perception; tolerated better only in small cooked amounts."
+    },
+    {
+      "id": "sens_04",
+      "foodOrIngredient": "Fresh Ginger & White Miso",
+      "reactionType": "Well Tolerated",
+      "toleranceStatus": "Well Tolerated",
+      "occurrenceCount": 5,
+      "lastReported": "2026-11-15",
+      "notes": "Consistently soothing for morning and midday stomach comfort."
+    }
+  ],
+  "recipes": [
+    {
+      "id": "rec_01",
+      "title": "Soothing Ginger & Silken Tofu Rice Congee",
+      "description": "A velvety, slow-simmered jasmine rice porridge infused with fresh ginger root, mild white miso, and pasteurized silken tofu cubes. Designed for low-odor preparation and effortless swallowing.",
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 25,
+      "servings": 2,
+      "category": "Nausea-Calming",
+      "textureProfile": "Soft & Moist",
+      "ingredients": [
+        {
+          "rawText": "1/2 cup white jasmine rice, rinsed",
+          "normalizedName": "white jasmine rice",
+          "amount": "0.5",
+          "unit": "cup"
+        },
+        {
+          "rawText": "4 cups low-sodium vegetable broth",
+          "normalizedName": "vegetable broth",
+          "amount": "4",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1 tbsp fresh ginger, peeled and thinly sliced",
+          "normalizedName": "fresh ginger",
+          "amount": "1",
+          "unit": "tbsp"
+        },
+        {
+          "rawText": "150g pasteurized silken tofu, cubed",
+          "normalizedName": "silken tofu",
+          "amount": "150",
+          "unit": "g"
+        },
+        {
+          "rawText": "1 tbsp mild white miso paste",
+          "normalizedName": "white miso paste",
+          "amount": "1",
+          "unit": "tbsp"
+        },
+        {
+          "rawText": "1 tsp toasted sesame oil",
+          "normalizedName": "sesame oil",
+          "amount": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Combine rinsed jasmine rice, vegetable broth, and sliced fresh ginger in a medium pot.",
+        "Bring to a gentle boil, then reduce heat to low and simmer partially covered for 22–25 minutes, stirring occasionally until the rice breaks down into a creamy porridge.",
+        "Whisk the white miso paste with 2 tablespoons of warm broth in a small cup, then stir into the congee along with the cubed silken tofu.",
+        "Simmer for 2 full minutes until tofu is thoroughly heated through (165°F/74°C for neutropenic safety).",
+        "Allow to cool to a lukewarm temperature before serving to minimize food aroma and soothe oral tissues."
+      ],
+      "dietaryTags": [
+        "High-Moisture",
+        "Low-Acid",
+        "Gluten-Free Option",
+        "Vegetarian",
+        "Neutropenic-Safe"
+      ],
+      "allergens": [
+        "Soy",
+        "Sesame"
+      ],
+      "foodSafetyWarnings": [
+        "Ensure tofu is from a sealed, pasteurized package and heated thoroughly in the simmering broth.",
+        "Do not garnish with raw unwashed scallions if following strict neutropenic precautions."
+      ],
+      "treatmentConsiderations": [
+        "Serving lukewarm rather than piping hot reduces steam aromas that can trigger chemotherapy-related nausea.",
+        "Neutral tofu protein avoids metallic taste reactions common with red meats."
+      ],
+      "sourceName": "Memorial Sloan Kettering Oncology Nutrition Kitchen",
+      "sourceUrl": "https://www.mskcc.org/experience/patient-support/nutrition-cancer",
+      "sourceVerified": true,
+      "nutritionHighlight": {
+        "proteinG": 14.5,
+        "fiberG": 1.5,
+        "hydrationSupport": "High",
+        "gentleDigestibilityNote": "Provides 350ml+ of hydrating broth alongside gentle starch and plant protein."
+      }
+    },
+    {
+      "id": "rec_02",
+      "title": "Golden Butternut Squash & Red Lentil Velouté",
+      "description": "A nutrient-dense, pureed soup combining roasted sweet squash and hull-less red lentils with a touch of coconut milk and ginger. Rich in plant iron and beta-carotene with zero chewing required.",
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "servings": 3,
+      "category": "Soft Texture / Dysphagia-Friendly",
+      "textureProfile": "Smooth / Pureed",
+      "ingredients": [
+        {
+          "rawText": "2 cups peeled, cubed butternut squash",
+          "normalizedName": "butternut squash",
+          "amount": "2",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1/2 cup split red lentils, rinsed thoroughly",
+          "normalizedName": "red lentils",
+          "amount": "0.5",
+          "unit": "cup"
+        },
+        {
+          "rawText": "3 cups low-sodium vegetable or bone broth",
+          "normalizedName": "vegetable broth",
+          "amount": "3",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1 tsp grated fresh ginger",
+          "normalizedName": "fresh ginger",
+          "amount": "1",
+          "unit": "tsp"
+        },
+        {
+          "rawText": "1/3 cup canned coconut milk",
+          "normalizedName": "coconut milk",
+          "amount": "0.33",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1 tbsp extra-virgin olive oil",
+          "normalizedName": "olive oil",
+          "amount": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Wash and peel the butternut squash thoroughly on a clean cutting board.",
+        "In a soup pot, combine the squash, rinsed red lentils, broth, and fresh ginger. Bring to a boil.",
+        "Lower heat, cover, and simmer for 18–20 minutes until both squash and lentils are completely tender.",
+        "Stir in the canned coconut milk and olive oil, then blend until completely velvety using an immersion blender.",
+        "Serve warm in small mugs for easy sipping throughout the afternoon."
+      ],
+      "dietaryTags": [
+        "Pureed",
+        "Dairy-Free",
+        "Plant-Protein",
+        "Garlic-Free",
+        "Onion-Free",
+        "Neutropenic-Safe"
+      ],
+      "allergens": [
+        "Tree Nuts (Coconut)"
+      ],
+      "foodSafetyWarnings": [
+        "Wash whole squash under running water before peeling to prevent surface bacteria transfer.",
+        "Refrigerate leftovers within 1 hour and consume within 48 hours after reheating to a rolling boil."
+      ],
+      "treatmentConsiderations": [
+        "Formulated without garlic, onion, or black pepper for patients experiencing mouth sores (mucositis) or odor aversions.",
+        "Can be sipped from a mug when utensils feel tiring."
+      ],
+      "sourceName": "National Cancer Institute — Eating Hints Collection",
+      "sourceUrl": "https://www.cancer.gov/publications/patient-education/eating-hints",
+      "sourceVerified": true,
+      "nutritionHighlight": {
+        "proteinG": 12,
+        "fiberG": 5.2,
+        "hydrationSupport": "High",
+        "gentleDigestibilityNote": "Split red lentils dissolve completely when cooked, preventing fibrous texture irritation."
+      }
+    },
+    {
+      "id": "rec_03",
+      "title": "Cool Peach & Pasteurized Greek Yogurt Protein Whip",
+      "description": "A chilled, odor-free high-protein blend made with peeled cooked or canned peaches, pasteurized Greek yogurt, oat milk, and a hint of maple syrup. Ideal when warm food smells trigger nausea.",
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 0,
+      "servings": 1,
+      "category": "High-Protein Gentle",
+      "textureProfile": "Smooth / Pureed",
+      "ingredients": [
+        {
+          "rawText": "3/4 cup pasteurized plain Greek yogurt",
+          "normalizedName": "pasteurized Greek yogurt",
+          "amount": "0.75",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1/2 cup canned or peeled stewed peaches in juice",
+          "normalizedName": "peeled peaches",
+          "amount": "0.5",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1/3 cup shelf-stable oat milk",
+          "normalizedName": "oat milk",
+          "amount": "0.33",
+          "unit": "cup"
+        },
+        {
+          "rawText": "2 tbsp quick rolled oats",
+          "normalizedName": "rolled oats",
+          "amount": "2",
+          "unit": "tbsp"
+        },
+        {
+          "rawText": "1 tsp pure maple syrup",
+          "normalizedName": "maple syrup",
+          "amount": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Ensure blender pitcher and blades have been washed in hot soapy water or dishwasher cycle.",
+        "Add pasteurized Greek yogurt, peaches, oat milk, rolled oats, and maple syrup to the blender.",
+        "Blend on high for 45 seconds until completely smooth and airy.",
+        "Serve chilled in a covered tumbler with a straw to further reduce food scent exposure."
+      ],
+      "dietaryTags": [
+        "No-Cook",
+        "Cold / Odor-Free",
+        "High-Protein",
+        "Low-Acid",
+        "Neutropenic-Safe"
+      ],
+      "allergens": [
+        "Dairy"
+      ],
+      "foodSafetyWarnings": [
+        "Use commercially canned peaches or thoroughly cooked peeled peaches during neutropenic phases.",
+        "Verify Greek yogurt is pasteurized and avoid raw unpasteurized honey."
+      ],
+      "treatmentConsiderations": [
+        "Chilled foods emit minimal volatile aroma compounds, making them far easier to tolerate during nausea peaks.",
+        "Mildly tart-sweet fruit flavor helps mask persistent bitter or metallic taste sensations."
+      ],
+      "sourceName": "American Institute for Cancer Research (AICR)",
+      "sourceUrl": "https://www.aicr.org/cancer-survival/treatment-tips/",
+      "sourceVerified": true,
+      "nutritionHighlight": {
+        "proteinG": 18.5,
+        "fiberG": 2.8,
+        "hydrationSupport": "Moderate",
+        "gentleDigestibilityNote": "Concentrated protein in a compact 1-cup serving for early satiety."
+      }
+    },
+    {
+      "id": "rec_04",
+      "title": "Poached Herb Chicken & Sweet Potato Mash Bowl",
+      "description": "Tender chicken breast poached gently in bone broth and served over whipped sweet potato with olive oil. High protein density with extra broth drizzle to support dry mouth.",
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 20,
+      "servings": 2,
+      "category": "High-Protein Gentle",
+      "textureProfile": "Soft & Moist",
+      "ingredients": [
+        {
+          "rawText": "240g skinless chicken breast",
+          "normalizedName": "chicken breast",
+          "amount": "240",
+          "unit": "g"
+        },
+        {
+          "rawText": "2 cups chicken bone broth",
+          "normalizedName": "chicken bone broth",
+          "amount": "2",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1 large sweet potato, peeled and cubed",
+          "normalizedName": "sweet potato",
+          "amount": "1",
+          "unit": "large"
+        },
+        {
+          "rawText": "1 tbsp extra-virgin olive oil",
+          "normalizedName": "olive oil",
+          "amount": "1",
+          "unit": "tbsp"
+        },
+        {
+          "rawText": "1 tsp dried thyme or parsley (cooked with broth)",
+          "normalizedName": "parsley",
+          "amount": "1",
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Place peeled sweet potato cubes in a pot of water, bring to a boil, and cook for 15 minutes until fork-tender.",
+        "In a separate saucepan, submerge chicken breast in chicken bone broth with dried herbs. Simmer gently until internal temperature reaches 165°F (74°C) on a food thermometer.",
+        "Shred the poached chicken finely using two forks and moisten generously with 1/2 cup of the warm cooking broth.",
+        "Mash the drained sweet potato with olive oil and a splash of warm broth until pillowy and smooth."
+      ],
+      "dietaryTags": [
+        "High-Protein",
+        "Gluten-Free",
+        "Dairy-Free",
+        "Garlic-Free",
+        "Neutropenic-Safe"
+      ],
+      "allergens": [],
+      "foodSafetyWarnings": [
+        "Always verify poultry reaches 165°F (74°C) using a clean digital thermometer.",
+        "Use separate cutting boards for raw poultry and cooked foods; add herbs during cooking rather than raw at the end."
+      ],
+      "treatmentConsiderations": [
+        "Finely shredding poultry and serving in warm broth prevents dryness that can make swallowing difficult."
+      ],
+      "sourceName": "Oncology Nutrition Dietetic Practice Group",
+      "sourceUrl": "https://www.oncologynutrition.org/erfc/eating-well-when-unwell",
+      "sourceVerified": true,
+      "nutritionHighlight": {
+        "proteinG": 29,
+        "fiberG": 3.6,
+        "hydrationSupport": "Moderate",
+        "gentleDigestibilityNote": "Lean complete amino acid profile paired with easily digested complex carbohydrates."
+      }
+    },
+    {
+      "id": "rec_05",
+      "title": "Warm Cinnamon Stewed Apple & Oat Compote",
+      "description": "Peeled apples simmered until cloud-soft with rolled oats, maple syrup, and gentle Ceylon cinnamon. A comforting breakfast or evening snack rich in soluble fiber.",
+      "prepTimeMinutes": 5,
+      "cookTimeMinutes": 12,
+      "servings": 2,
+      "category": "Nutrient-Dense Snack",
+      "textureProfile": "Soft & Moist",
+      "ingredients": [
+        {
+          "rawText": "2 medium apples, peeled, cored, and finely diced",
+          "normalizedName": "peeled apple",
+          "amount": "2",
+          "unit": "medium"
+        },
+        {
+          "rawText": "3/4 cup rolled oats",
+          "normalizedName": "rolled oats",
+          "amount": "0.75",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1.5 cups water or oat milk",
+          "normalizedName": "water",
+          "amount": "1.5",
+          "unit": "cup"
+        },
+        {
+          "rawText": "1/2 tsp ground cinnamon",
+          "normalizedName": "ground cinnamon",
+          "amount": "0.5",
+          "unit": "tsp"
+        },
+        {
+          "rawText": "1 tbsp maple syrup",
+          "normalizedName": "maple syrup",
+          "amount": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Wash apples thoroughly, then peel and core completely.",
+        "Simmer diced apples in water with cinnamon for 6 minutes until soft and translucent.",
+        "Stir in rolled oats and maple syrup; cook for another 5–6 minutes until creamy.",
+        "Serve lukewarm."
+      ],
+      "dietaryTags": [
+        "Soluble-Fiber",
+        "Low-Fat",
+        "Vegan",
+        "Garlic-Free",
+        "Neutropenic-Safe"
+      ],
+      "allergens": [],
+      "foodSafetyWarnings": [
+        "Peeling fruit and cooking thoroughly eliminates surface microbial risk for immunocompromised patients."
+      ],
+      "treatmentConsiderations": [
+        "Cooked apple pectin and soluble oat fiber help regulate bowel comfort gently."
+      ],
+      "sourceName": "Dana-Farber Nutrition Services Library",
+      "sourceUrl": "https://www.dana-farber.org/health-library/recipes",
+      "sourceVerified": true,
+      "nutritionHighlight": {
+        "proteinG": 5.8,
+        "fiberG": 4.9,
+        "hydrationSupport": "Moderate",
+        "gentleDigestibilityNote": "Low fat content allows rapid gastric emptying when nausea is present."
+      }
+    },
+    {
+      "id": "rec_06",
+      "title": "Zesty Garlic Tomato Chickpea Stew",
+      "description": "A hearty Mediterranean chickpea stew simmered in crushed tomatoes, garlic, onion, and red pepper flakes. Rich in fiber and plant protein for days when appetite and spice tolerance are strong.",
+      "prepTimeMinutes": 10,
+      "cookTimeMinutes": 25,
+      "servings": 3,
+      "category": "High-Protein Gentle",
+      "textureProfile": "Soft & Moist",
+      "ingredients": [
+        {
+          "rawText": "1 can (400g) chickpeas, rinsed and drained",
+          "normalizedName": "chickpeas",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "rawText": "2 cups crushed tomatoes",
+          "normalizedName": "tomatoes",
+          "amount": "2",
+          "unit": "cup"
+        },
+        {
+          "rawText": "3 cloves garlic, minced",
+          "normalizedName": "garlic",
+          "amount": "3",
+          "unit": "cloves"
+        },
+        {
+          "rawText": "1 medium yellow onion, diced",
+          "normalizedName": "onion",
+          "amount": "1",
+          "unit": "medium"
+        },
+        {
+          "rawText": "1/2 tsp chili oil or red pepper flakes",
+          "normalizedName": "chili oil",
+          "amount": "0.5",
+          "unit": "tsp"
+        },
+        {
+          "rawText": "1 tbsp olive oil",
+          "normalizedName": "olive oil",
+          "amount": "1",
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "Sauté diced onion and minced garlic in olive oil over medium heat for 5 minutes.",
+        "Add crushed tomatoes, chickpeas, and chili oil; bring to a lively simmer for 20 minutes.",
+        "Mash half of the chickpeas slightly to thicken the broth and serve warm."
+      ],
+      "dietaryTags": [
+        "High-Fiber",
+        "Vegan",
+        "Plant-Protein"
+      ],
+      "allergens": [],
+      "foodSafetyWarnings": [
+        "Wash top of canned goods before opening and simmer thoroughly."
+      ],
+      "treatmentConsiderations": [
+        "Contains acidic tomatoes, garlic, and chili spice — avoid during active mouth sores (mucositis) or acute nausea."
+      ],
+      "sourceName": "American Cancer Society — Eat Healthy",
+      "sourceUrl": "https://www.cancer.org/cancer/survivorship/coping/nutrition.html",
+      "sourceVerified": true,
+      "nutritionHighlight": {
+        "proteinG": 13.4,
+        "fiberG": 8.6,
+        "hydrationSupport": "Moderate",
+        "gentleDigestibilityNote": "Best suited for recovery phases without active mucosal irritation or garlic sensitivity."
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "col_01",
+      "name": "Infusion Week Comforts",
+      "description": "Low-odor, lukewarm, and ginger-infused meals for days 1–4 post-infusion.",
+      "recipeIds": [
+        "rec_01",
+        "rec_03",
+        "rec_05"
+      ]
+    },
+    {
+      "id": "col_02",
+      "name": "Soft & Smooth Protein Builders",
+      "description": "High-protein purees and moist bowls that require minimal chewing.",
+      "recipeIds": [
+        "rec_02",
+        "rec_04"
+      ]
+    }
+  ],
+  "caregiverGrants": [
+    {
+      "id": "cg_01",
+      "caregiverName": "David Rostov",
+      "caregiverEmail": "david.rostov@familycare.org",
+      "relationship": "Spouse / Primary Care Partner",
+      "accessCode": "ONCO-8842-CARE",
+      "permissions": {
+        "viewMeals": true,
+        "viewHydration": true,
+        "viewSymptoms": true,
+        "exportReports": true
+      },
+      "status": "Active",
+      "createdAt": "2026-11-01",
+      "expiresAt": "2026-12-31"
+    }
+  ]
+}
